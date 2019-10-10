@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include <algorithm>
+#include "Header.h"
 
 using std::string;
 using std::stack;
@@ -52,7 +53,7 @@ bool first_sogl_skobki(stack <char> &a)
 	return o;
 }
 
-bool sogl_sk(const string h)
+bool BraceChecker::isBalanced(const string h)
 {
 	auto a = get_stack(h);
 	while (first_sogl_skobki(a));

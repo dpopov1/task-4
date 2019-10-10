@@ -4,6 +4,6 @@
 int main()
 {
 	const std::string a = "{{{}{(())}}}";
-	std::cout << sogl_sk(a)<<std::endl;
+	std::cout << BraceChecker::isBalanced(a)<<std::endl;
 	system("pause");
 }

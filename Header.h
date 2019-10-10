@@ -1,4 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Header.h"
-bool sogl_sk(std::string);
+class BraceChecker {
+public:
+	static bool isBalanced(const std::string);
+};
